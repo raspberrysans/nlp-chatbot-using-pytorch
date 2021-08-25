@@ -1,0 +1,72 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "How's it going"
+        ],
+        "responses": [
+          "Hey!",
+          "Hey there!",
+          "Hello there",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Glad I could help."]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "joke"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+    {
+        "tag": "bitcoin-purpose",
+        "patterns": [
+            "Why should I buy Bitcoin?",
+            "What is Bitcoin for?",
+            "Why bitcoin?",
+            "Why is bitcoin useful?"
+          ],
+        "responses":["Bitcoin offers an efficient means of transferring money over the internet", "Bitcoin is controlled by a decentralized network with a transparent set of rules, thus presenting an alternative to central bank-controlled fiat money."]
+    },
+    {   "tag": "tasks",
+        "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+        "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+    },
+        {"tag": "talk",
+        "patterns": [ "can you sing", "can you talk" ],
+        "responses": ["Yeah surely!", "Do you want me to sing?"]
+    },
+        {"tag": "alive",
+        "patterns": [ "are you alive", "do you breathe", "can you run" ],
+        "responses": ["Not really.", "Nope..."]
+    }
+    ]
+  }
